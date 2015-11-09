@@ -1,0 +1,183 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+}
+.babyblue-b{
+  background-color: #8ACDEA;
+}
+.babyblue-t{
+  color: #8ACDEA;
+}
+.mudgray-b{
+  background-color: #746d75;
+}
+.mudgray-t{
+  color: #746d75;
+}
+.mutedrose-b{
+  background-color: #8c4843;
+}
+.mutedrose-t{
+  color: #8c4843;
+}
+.ripeorange-b{
+  background-color: #9e643c;
+}
+.ripeorange-t{
+  color: #9e643c;
+}
+.heavenwhite-b{
+  background-color: #ede6f2;
+}
+.heavenwhite-t{
+  color: #ede6f2;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navli{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 50px;
+  margin-left: 20px;
+
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #ede6f2;
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.chatbox {
+  height: 90vh;
+  width: 85%;
+  margin-left: 15%;
+  margin-top: 50px;
+  font-size: 20px;
+  overflow:scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.roomlist {
+  float: left;
+  width: 15%;
+  min-width: 200px;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 50px;
+}
+
+.avatar {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.roomButton{
+  background: transparent;
+  border: 2px solid #ede6f2;
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+  color: #ede6f2;
+  text-transform: capitalize;
+  margin: 10px 0px 0px auto;
+}
+
+.plusButton{
+  background: transparent;
+  border: 2px solid #ede6f2;
+  border-radius: 100px;
+  color: #ede6f2;
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: 400;
+  width: auto;
+  height: 30px;
+  line-height: 20px;
+  font-size: 30px;
+  float: right;
+  margin-top: -35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  transition: 1s;
+}
+
+.plusButton:hover{
+  border: 2px solid #816f8f;
+  color: #816f8f;
+  transition: .5s;
+}
+
+.chatMessage{
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+  height:40px;
+  margin-top: 5px;
+  width: 70%;
+  margin-left: 300px;
+}
+
+.roomInput {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+  height:40px;
+  margin-top: 5px;
+  width: 70%;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.chatinput {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+button{
+    font-weight: 300;
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+}

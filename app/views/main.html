@@ -1,0 +1,21 @@
+<div class="roomlist babyblue-b">
+  <form ng-submit="newRoom()">
+    <input type="text" ng-model="roomName" class="roomInput">
+  </form>
+      <button ng-click="newRoom()" class="plusButton">+</button>
+      <div ng-repeat="room in rooms" style="text-align: center;">
+        <button ng-click="changeRoom('{{room.objectId}}')" class="roomButton">{{room.name}}</button> <!--  -->
+      </div>
+</div>
+  <div>
+    <div class="chatbox heavenwhite-b" ng-hide="hideChat">
+    <ul style="list-style: none;">
+      <li ng-repeat="message in messages" style="vertical-align: middle;"><img src="http://placehold.it/40x40" class="avatar" style="vertical-align: middle; margin-top: 10px; margin-bottom: 10px; margin-right: 20px;"/>{{message.body}}</li>
+    </ul>
+  </div>
+  <div class="chatinput heavenwhite-b">
+  <form ng-submit="postMessage()">
+    <input type='text' placeholder="message" ng-model="newMessage" class="chatMessage"/>
+  </form>
+</div>
+  </div>
